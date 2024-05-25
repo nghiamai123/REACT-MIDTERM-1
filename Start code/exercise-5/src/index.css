@@ -1,0 +1,16 @@
+.card {
+    text-align: center;
+}
+
+.card:hover {
+    text-align: center;
+    transform: scale(1.05);
+    background-color: indianred !important;;
+}
+
+.contain {
+    display: grid;
+    border-radius: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
