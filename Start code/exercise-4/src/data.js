@@ -1,5 +1,5 @@
 import forestWaterfallImg from "./assets/forest-waterfall.jpg";
-import desertDunes from "./assets/desert-dunes.jpg";
+import desertDunes from "./assets/majestic-mountains.jpg";
 import majesticMountains from "./assets/majestic-mountains.jpg";
 import caribbeanBeachImg from "./assets/caribbean-beach.jpg";
 import ruinsImg from "./assets/ruins.jpg";
