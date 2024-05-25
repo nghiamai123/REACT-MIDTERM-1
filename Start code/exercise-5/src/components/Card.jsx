@@ -1,22 +1,23 @@
 import React from 'react';
 
-const Card = ({teacher}) => {
-    console.log(teacher)
+const Card = ({item}) => {
+    console.log(item)
+    const {image, name, description, hobbies, classi } = item;
     return (
         <div className="card" style={{border :"2px solid", width: "200px", height:"auto" }}>
             <div className="card-body">
-                <img src={teacher.image} alt="" />
+                <img src={image} alt="" />
                 <h5 className="card-title">{
-                    teacher.name
+                    name
                 }</h5>
                 <p className="card-text">{
-                    teacher.description
+                    description
                 }</p>
                 <p className="card-text">{
-                    teacher.class
+                    classi
                 }</p>
                 <p className="card-text">{
-                    teacher.hobbies
+                    hobbies
                 }</p>
             </div>
         </div>

@@ -1,34 +1,34 @@
 import image from './assets/image.jpg';
-export const ALL_PNV_TEACHERS = [
+export const items = [
     {
       id: 1,
-      description: "My",
+      description: "teacher",
       name: "Ngo",
-      class: "IT Trainer",
+      classi: "IT Trainer",
       hobbies: "piano",
       image: image
     },
     {
       id: 2,
-      description: "sd",
+      description: "teacher",
       name: "Ngo",
-      class: "IT Trainer",
+      classi: "IT Trainer",
       hobbies: "piano",
       image: image
     },
     {
       id: 3,
-      description: "sadad",
+      description: "teacher",
       name: "Ngo",
-      class: "IT Trainer",
+      classi: "IT Trainer",
       hobbies: "piano",
       image: image
     },
     {
       id: 4,
-      description: "asdadsad",
+      description: "teacher",
       name: "Ngo",
-      class: "IT Trainer",
+      classi: "IT Trainer",
       hobbies: "piano",
       image: image
     },
